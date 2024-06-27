@@ -1,0 +1,24 @@
+/* styles.css */
+
+body {
+    /* Establecer la imagen de fondo */
+    background-image: url('https://eempb.com.gt/eempb/wp-content/uploads/2022/09/logoempresaee01.png');
+  
+    /* Configurar la repetición y el tamaño */
+    background-repeat: repeat; /* Repetir la imagen */
+    background-size: contain; /* Tamaño de la imagen (ajustar al contenedor) */
+  
+    /* Otras propiedades para asegurar que ocupe todo el espacio visible */
+    background-attachment: fixed; /* Fondo fijo */
+    background-position: center center; /* Posición centrada */
+    background-color: #f8f9fa; /* Color de fondo de respaldo */
+  }
+  
+  /* Estilos adicionales para mantener el contenido centrado y responsivo */
+  .container {
+    max-width: 800px;
+    margin: 0 auto; /* Centrar contenido */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semi-transparente */
+  }
+  
